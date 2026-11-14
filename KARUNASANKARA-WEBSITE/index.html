@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- PENGATURAN HALAMAN: judul tab, deskripsi situs, font, dan file CSS/JavaScript. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#14251f">
+    <meta name="description" content="Karunasankara Art — tim seni pencak silat Pagar Nusa di Kedungrejo, Sidoarjo. Tumbuh bersama lewat seni, disiplin, dan persaudaraan.">
+    <title>Karunasankara Art — Seni, Disiplin, Persaudaraan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#konten">Langsung ke konten</a>
+
+    <!-- HEADER: logo dan menu navigasi. Teks menu serta alamat tujuan diubah di bagian ini. -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#beranda" aria-label="Karunasankara Art, kembali ke beranda">
+                <img src="IMAGE/logo2.png" alt="" width="52" height="52">
+                <span class="brand-copy">
+                    <strong>Karunasankara</strong>
+                    <span>ART · PAGAR NUSA</span>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Buka menu navigasi">
+                <span></span><span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
+                <a href="#profil">Tentang</a>
+                <a href="#pelatih">Pelatih</a>
+                <a href="#atlet">Kategori</a>
+                <a href="#jadwal-latihan">Jadwal</a>
+                <a href="#galeri">Galeri</a>
+                <a class="nav-cta" href="#kontak">Gabung latihan <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="konten">
+        <!-- BERANDA / HERO: foto latar, judul utama, deskripsi, dan tombol ajakan pertama. -->
+        <section class="hero" id="beranda" aria-labelledby="hero-title">
+            <div class="hero-photo" aria-hidden="true"></div>
+            <div class="hero-grain" aria-hidden="true"></div>
+            <div class="hero-content">
+                <p class="eyebrow"><span class="eyebrow-line"></span> Kedungrejo · Sidoarjo · Est. 2022</p>
+                <h1 id="hero-title">Lestarikan gerak.<br><span>Rawat persaudaraan.</span></h1>
+                <p class="hero-description">Ruang bertumbuh bagi para pencinta seni pencak silat bersama Pagar Nusa—melatih raga, membentuk sikap, dan menjaga tradisi.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#jadwal-latihan">Lihat jadwal latihan <span aria-hidden="true">↓</span></a>
+                    <a class="button button-quiet" href="#profil">Kenali kami <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="hero-note">
+                    <span class="note-mark" aria-hidden="true">✳</span>
+                    <span><strong>Belajar bersama, bertumbuh bersama.</strong><br>Terbuka untuk yang ingin memulai.</span>
+                </div>
+            </div>
+            <div class="hero-index" aria-hidden="true"><span>01</span> / 04</div>
+            <a class="scroll-cue" href="#profil"><span></span> Gulir untuk mengenal kami</a>
+        </section>
+
+        <!-- PROFIL: pengenalan klub dan nilai-nilai yang dijunjung saat berlatih. -->
+        <section class="intro section-wrap" id="profil" aria-labelledby="profil-title">
+            <div class="section-kicker reveal"><span>01</span> Tentang kami</div>
+            <div class="intro-grid">
+                <div class="intro-heading reveal">
+                    <p class="overline">Bukan sekadar gerakan</p>
+                    <h2 id="profil-title">Seni yang menguatkan <em>jiwa.</em></h2>
+                </div>
+                <div class="intro-copy reveal">
+                    <p>Karunasankara Art adalah tim seni pencak silat Pagar Nusa yang tumbuh di Kedungrejo, Sidoarjo. Kami belajar bahwa setiap jurus membawa lebih dari sekadar teknik—ada disiplin, keberanian, dan rasa hormat di dalamnya.</p>
+                    <p>Berlatih dalam kategori tunggal, ganda, regu, dan solo kreatif, kami menjaga semangat pencak silat tetap hidup dengan cara yang hangat dan penuh kebersamaan.</p>
+                    <a class="text-link" href="#atlet">Kenali kategori latihan <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+            <div class="values-row reveal" aria-label="Nilai-nilai latihan">
+                <div><span class="value-number">01</span><strong>Disiplin</strong><span>Tekun di setiap latihan</span></div>
+                <div><span class="value-number">02</span><strong>Tradisi</strong><span>Bangga pada warisan budaya</span></div>
+                <div><span class="value-number">03</span><strong>Persaudaraan</strong><span>Tumbuh sebagai satu keluarga</span></div>
+            </div>
+        </section>
+
+        <!-- PELATIH: ubah nama, peran, atau inisial pelatih pada kartu-kartu berikut. -->
+        <section class="coaches section-wrap section-dark" id="pelatih" aria-labelledby="pelatih-title">
+            <div class="section-kicker reveal"><span>02</span> Orang-orang di balik latihan</div>
+            <div class="section-heading reveal">
+                <div>
+                    <p class="overline">Belajar dari para pembimbing</p>
+                    <h2 id="pelatih-title">Dilatih dengan <em>hati.</em></h2>
+                </div>
+                <p>Setiap langkah besar dimulai dari bimbingan yang tulus dan kemauan untuk terus belajar.</p>
+            </div>
+            <div class="coach-grid">
+                <article class="coach-card reveal">
+                    <span class="card-index">PELATIH · 01</span>
+                    <div class="coach-monogram" aria-hidden="true">A</div>
+                    <h3>Mas Andrian</h3>
+                    <p>Pelatih Karunasankara Art</p>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </article>
+                <article class="coach-card reveal">
+                    <span class="card-index">PELATIH · 02</span>
+                    <div class="coach-monogram" aria-hidden="true">M</div>
+                    <h3>Pak Muid</h3>
+                    <p>Pelatih Karunasankara Art</p>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </article>
+                <article class="coach-card reveal">
+                    <span class="card-index">PELATIH · 03</span>
+                    <div class="coach-monogram" aria-hidden="true">A</div>
+                    <h3>Mas Arkan</h3>
+                    <p>Pelatih Karunasankara Art</p>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- KATEGORI LATIHAN: deskripsi untuk seni tunggal, ganda, regu, dan solo kreatif. -->
+        <section class="disciplines section-wrap" id="atlet" aria-labelledby="atlet-title">
+            <div class="section-kicker reveal"><span>03</span> Pilih jalanmu</div>
+            <div class="section-heading reveal">
+                <div>
+                    <p class="overline">Empat cara mengekspresikan seni</p>
+                    <h2 id="atlet-title">Temukan irama <em>gerakmu.</em></h2>
+                </div>
+                <p>Setiap kategori punya tantangan dan keindahannya sendiri. Temukan yang paling sesuai denganmu.</p>
+            </div>
+            <div class="discipline-grid">
+                <article class="discipline-card reveal">
+                    <span class="discipline-number">01</span><span class="discipline-glyph" aria-hidden="true">一</span>
+                    <h3>Seni Tunggal</h3><p>Ketepatan teknik dan keteguhan diri dalam satu rangkaian gerak.</p>
+                </article>
+                <article class="discipline-card reveal">
+                    <span class="discipline-number">02</span><span class="discipline-glyph" aria-hidden="true">二</span>
+                    <h3>Seni Ganda</h3><p>Dua pesilat, satu irama—perpaduan teknik, kendali, dan kepercayaan.</p>
+                </article>
+                <article class="discipline-card reveal">
+                    <span class="discipline-number">03</span><span class="discipline-glyph" aria-hidden="true">三</span>
+                    <h3>Seni Regu</h3><p>Kekompakan tim yang menyatukan detail gerak menjadi satu kesatuan.</p>
+                </article>
+                <article class="discipline-card reveal">
+                    <span class="discipline-number">04</span><span class="discipline-glyph" aria-hidden="true">✳</span>
+                    <h3>Solo Kreatif</h3><p>Ruang untuk berekspresi dan menghadirkan karakter dalam setiap gerakan.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- JADWAL: ubah nama hari dan jam pada setiap baris jadwal di bawah. -->
+        <section class="schedule section-wrap" id="jadwal-latihan" aria-labelledby="jadwal-title">
+            <div class="schedule-panel reveal">
+                <div class="schedule-copy">
+                    <div class="section-kicker section-kicker-light"><span>04</span> Catat waktunya</div>
+                    <p class="overline">Konsisten dimulai dari hadir</p>
+                    <h2 id="jadwal-title">Sampai jumpa<br>di <em>tempat latihan.</em></h2>
+                    <p class="schedule-location"><span aria-hidden="true">⌖</span> Kedungrejo, Sidoarjo</p>
+                    <a class="button button-outline" href="#kontak">Tanya lokasi latihan <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="schedule-list" aria-label="Jadwal latihan mingguan">
+                    <div class="schedule-row"><span>Senin</span><strong>18.30 <i>—</i> 21.30</strong><span class="schedule-dot"></span></div>
+                    <div class="schedule-row"><span>Rabu</span><strong>18.30 <i>—</i> 21.30</strong><span class="schedule-dot"></span></div>
+                    <div class="schedule-row"><span>Jumat</span><strong>18.30 <i>—</i> 21.30</strong><span class="schedule-dot"></span></div>
+                    <div class="schedule-row"><span>Minggu</span><strong>06.30 <i>—</i> 10.00</strong><span class="schedule-dot"></span></div>
+                    <p class="schedule-footnote">Jadwal dapat berubah. Hubungi kami untuk memastikan waktu dan titik latihan.</p>
+                </div>
+                <span class="schedule-decoration" aria-hidden="true">K</span>
+            </div>
+        </section>
+
+        <!-- GALERI: ganti alamat gambar pada src dan sesuaikan teks keterangan foto. -->
+        <section class="gallery section-wrap" id="galeri" aria-labelledby="galeri-title">
+            <div class="section-kicker reveal"><span>05</span> Cerita dalam gambar</div>
+            <div class="section-heading gallery-heading reveal">
+                <div>
+                    <p class="overline">Satu perjalanan, banyak cerita</p>
+                    <h2 id="galeri-title">Momen yang <em>berarti.</em></h2>
+                </div>
+                <p>Potret kebersamaan dan semangat Karunasankara Art di setiap langkah perjalanan.</p>
+            </div>
+            <figure class="gallery-feature reveal">
+                <img src="IMAGE/karuna.jfif" alt="Kebersamaan tim Karunasankara Art dalam kegiatan pencak silat" loading="lazy">
+                <figcaption><span>Karunasankara Art</span><span>Kedungrejo · Sidoarjo</span></figcaption>
+            </figure>
+        </section>
+
+        <!-- KONTAK: ubah pesan ajakan dan tautan Instagram klub di bagian ini. -->
+        <section class="join section-wrap" id="kontak" aria-labelledby="kontak-title">
+            <div class="join-inner reveal">
+                <div class="join-mark" aria-hidden="true">✳</div>
+                <p class="overline">Langkah pertamamu dimulai di sini</p>
+                <h2 id="kontak-title">Punya semangat?<br><em>Ayo berlatih.</em></h2>
+                <p class="join-copy">Ingin tahu lebih banyak tentang latihan atau bergabung bersama kami? Kirim pesan—kami senang menyambutmu.</p>
+                <a class="button button-primary" href="https://www.instagram.com/karunasankara_art/" target="_blank" rel="noopener noreferrer">Sapa kami di Instagram <span aria-hidden="true">↗</span></a>
+                <p class="instagram-handle">@karunasankara_art</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER: logo penutup dan hak cipta; tahun diperbarui otomatis oleh script.js. -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a class="brand footer-brand" href="#beranda">
+                <img src="IMAGE/logo2.png" alt="" width="42" height="42" loading="lazy">
+                <span class="brand-copy"><strong>Karunasankara</strong><span>ART · PAGAR NUSA</span></span>
+            </a>
+            <p>Melestarikan seni. Menguatkan persaudaraan.</p>
+            <span class="copyright">© <span id="current-year">2026</span> Karunasankara Art</span>
+        </div>
+    </footer>
+</body>
+</html>
